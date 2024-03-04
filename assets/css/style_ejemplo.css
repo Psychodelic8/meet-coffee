@@ -1,0 +1,61 @@
+/*COMENTARIO EN CSS */
+
+/*
+SINTAXIS CSS
+*/
+/*SELECTOR HTML*/
+/*SELECTOR*/
+h2{
+    /*PROPIEDAD     : VALOR*/
+    background-color: aqua;
+}
+
+/*SELECTOR POR CLASE*/
+/* sintaxis
+.nombredelaclase{
+    propiedad: valor;
+}
+*/
+.rojo{
+    background-color: black;
+    color:red;
+    background-color: blue;
+}
+.verde{
+    color: green;
+}
+
+/*selector por id*/
+/*
+#nombreId{
+    propiedad:valor;
+}    
+*/
+_pierito{
+    color: coral;
+}
+
+
+
+
+/*
+ejemplo de ultima regla manda
+*/
+/*
+.rojo{
+    background-color: black;
+    color:red;
+    background-color: blue;
+}
+*/
+/*
+ejemplo de especifico manda sobre lo general
+*/
+
+header{
+    color: chartreuse;
+}
+
+header h2{
+    color: maroon;
+}
